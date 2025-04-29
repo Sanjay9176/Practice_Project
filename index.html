@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice_6</title>
+    <link rel="stylesheet" type="text/css" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css.css"> 
+</head>
+<body>
+    <div class="banner">
+        <div class="logo_heading">
+            <div class="logo">
+                <img src="train.jpg" height="90"/>
+            </div>
+            <div class="heading">
+                <h2>Train Complain Management System</h2>
+            </div>
+        </div>
+        <div class="search_login_pro">
+            <div class="search">
+                <form>
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="Search The Complain">
+                </form>
+            </div>
+            <div class="login_pro">
+                <button class="login">LOGIN</button>
+                <button class="profile"><i class="fa-solid fa-user"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="cbutton">
+        <p>Providing feedback through complaints is a vital step in improving the quality and efficiency of railway services. 
+            It enables passengers to report issues such as delays, cleanliness, and service disruptions, 
+            ensuring they are addressed promptly by the relevant authorities. 
+            By offering feedback, passengers actively contribute to enhancing operational efficiency, safety, and the overall travel experience. 
+            Your input not only helps maintain high service standards but also fosters continuous improvement across the railway system. 
+            To share your feedback and help us serve you better, please press the complaint button.
+        </p>
+        <button class="btn">Complain Now</button>
+    </div>
+    <div class="complain_form">
+        <fieldset> 
+            <legend>Complaint Form</legend>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="complain_name" placeholder="Enter your name" required><br>
+                <span class="error_message" style="color: red;"></span>
+
+                <label for="phone">Phone No:</label>
+                <input type="tel" id="complain_phone" pattern="[0-9]{10}" placeholder="Enter your phone number" title="Enter a valid number" required><br>
+                <span class="error_message" style="color: red;"></span>
+
+                <label for="email">Email:</label>
+                <input type="email" id="complain_email" placeholder="Enter your email" title="Enter a valid email" required><br>
+                <span class="error_message" style="color: red;"></span>
+
+                <label for="pnr">PNR No:</label>
+                <input type="text" id="complain_pnr" placeholder="Enter the PNR" pattern="[0-9a-zA-Z]{10}" title="Enter a valid PNR" required><br>
+                <span class="error_message" style="color: red;"></span>
+
+                <label for="description">Complaint Description:</label>
+                <textarea id="complain_description" placeholder="Enter The Complaint Details"></textarea><br>
+
+                <label for="image">Image:</label>
+                <input type="file" id="image" accept=".jpg,.png,.svg,.pdf,.jpeg"><br>
+
+                <div class="buttons">
+                    <button class="exit_btn">Exit</button>
+                    <button type="submit" class="submit_btn">Complain</button>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+    <div class="images">
+        <div class="img1">
+            <div class="image-container">
+                <img src="img1.jpeg" width="500" height="270" class="normal-image">
+                <img src="img7.jpg" width="500" height="270" class="hover-image">
+            </div>
+            <div class="image-container">
+                <img src="img2.jpeg" width="500" height="270" class="normal-image">
+                <img src="img10.jpg" width="500" height="270" class="hover-image">
+            </div>
+            <div class="image-container">
+                <img src="img3.jpeg" width="500" height="270" class="normal-image">
+                <img src="img9.jpg" width="500" height="270" class="hover-image">
+            </div>
+        </div>
+        <div class="img2">
+            <div class="image-container">
+                <img src="img4.jpeg" width="500" height="270" class="normal-image">
+                <img src="img8.jpg" width="500" height="270" class="hover-image">
+            </div>
+            <div class="image-container">
+                <img src="img5.jpg" width="500" height="270" class="normal-image">
+                <img src="img12.jpg" width="500" height="270" class="hover-image">
+            </div>
+            <div class="image-container">
+                <img src="img6.png" width="500" height="270" class="normal-image">
+                <img src="img11.jpg" width="500" height="270" class="hover-image">
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <div class="end1">
+            <h1>Providing Feedback Through Complaints</h1>
+            <p>This opening emphasizes the importance of feedback in the form of complaints.
+                The focus here is on making passengers feel empowered to voice their concerns, 
+                suggesting that complaints are not just grievances but constructive contributions that help improve the railway system.
+            </p>
+        </div>
+        <div class="end2">
+            <h1>A Vital Step in Improving Quality and Efficiency</h1>
+            <p>The phrase "vital step" highlights the critical role that complaints play in driving improvements.
+                It underscores that the feedback mechanism is essential for maintaining and enhancing the quality of services and the efficiency of railway operations, 
+                leading to better management and performance.
+           </p>
+        </div>
+        <div class="end3">
+            <h1>Reporting Issues such as Delays, Cleanliness, and Service Disruptions</h1>
+            <p>
+                This section explains the types of issues passengers can report. 
+                It specifically mentions common problems like delays, cleanliness issues, 
+                and service disruptions to make the message relatable to the daily experiences of passengers.
+                 It positions the complaint system as a tool for resolving these common frustrations.
+            </p>
+            <div class="end_img1">
+                <div class="banner1">
+                    <img src="banner_img1.jpg" height="500">
+                </div>
+            </div>
+        </div>
+        <div class="end4">
+            <h1>To Share Your Feedback and Help Us Serve You Better</h1>
+            <p>A call to action that invites passengers to participate in improving the system. 
+                This phrase is both a request and a reminder of the mutual benefit—helping the railway system 
+                improve while enhancing the passenger's own experience.
+            </p>
+        </div>
+        <div class="end5">
+            <h1>Maintaining High Service Standards and Fostering Continuous Improvement</h1>
+            <p>This part highlights the long-term impact of complaints on the system by linking them to high service standards and the idea of continuous improvement. 
+                It reinforces that the feedback loop ensures that services are not only maintained but consistently improved based on passenger input.
+            </p>
+            <div class="end_img2">
+                <div class="banner2">
+                    <img src="banner_img2.jpg" height="500">
+                </div>
+            </div>
+        </div>
+        <div class="end6">
+            <h1>Please Press the Complaint Button</h1>
+            <p>The closing call to action, "please press the complaint button," is simple, direct, and encourages immediate action. 
+                It’s designed to prompt passengers to take the next step by using the complaint mechanism available.
+            </p>
+        </div>
+        <button class="Scroll_btn"><i class="fa-solid fa-arrow-up-long"></i></button>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
